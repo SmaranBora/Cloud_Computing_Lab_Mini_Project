@@ -1,0 +1,74 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    /* Changed font to 'Comic Sans MS' for a funky style */
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #371f1f;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Reduced the opacity of the background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Adjusted the box shadow */
+    text-align: center;
+}
+
+h1 {
+    color: #0f0808;
+    font-family: 'Impact', sans-serif;
+    /* Changed font for the heading to 'Impact' */
+    font-size: 28px;
+    /* Increased font size for a bold appearance */
+}
+
+.converter {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0f0808;
+}
+
+input,
+select,
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    /* Adjusted the text color for better visibility */
+    font-family: 'Comic Sans MS', cursive;
+    /* Changed font for input elements */
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #0f0808;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
